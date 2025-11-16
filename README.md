@@ -3,9 +3,7 @@
 
 This project is a responsive, single-page website for "Studymate," a fictional service that helps students create a smart study timetable. The site is built using only HTML5 and CSS3, with a focus on semantic structure, responsive design, and CSS-only interactivity.
 
-**Live GitHub Pages Link:** [https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/)
-
-*(Replace the link above with your published GitHub Pages URL)*
+**Live GitHub Pages Link:** [https://mmuslimk.github.io/Assignment-02/](https://mmuslimk.github.io/Assignment-02/)
 
 ---
 
@@ -40,7 +38,6 @@ The design aims to be clean, encouraging, and professional to build trust with a
 
 ### 3. Screenshots
 
-
 #### Desktop View
 ![DesktopView](https://github.com/user-attachments/assets/2fd794b2-937c-498e-b476-0d1442c9e380)
 
@@ -55,8 +52,6 @@ The design aims to be clean, encouraging, and professional to build trust with a
 ---
 
 ### 4. Validator Proofs
-
-*(To add proof: Take screenshots of the validator results and drag them here)*
 
 #### HTML Validation (W3C)
 ![HTML Validator Proof](https://github.com/user-attachments/assets/bdc29e4f-b6f7-4e69-8cae-29ca4cd89701)
