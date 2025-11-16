@@ -38,14 +38,14 @@ The design aims to be clean, encouraging, and professional to build trust with a
 
 ### 3. Screenshots
 
-#### Desktop View
+#### Desktop View (Showing the form) taken from Dell Inspiron 27 7710 All-In-One.
 ![DesktopView](https://github.com/user-attachments/assets/2fd794b2-937c-498e-b476-0d1442c9e380)
 
-#### Tablet View
+#### Tablet View (Showing the form) taken from Ipad Air 2.
 <img width="1640" height="2360" alt="Tablet View" src="https://github.com/user-attachments/assets/ac17de25-5fb9-47c1-b7e4-05736de0b993" />
 
 
-#### Mobile View (Showing the form)
+#### Mobile View (Showing the form) taken from Iphone 12.
 <img width="1170" height="2532" alt="Phone view" src="https://github.com/user-attachments/assets/f3e91a59-c9cc-49dc-9ec0-aa00f62b9b81" />
 
 
