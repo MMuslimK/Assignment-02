@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studymate - Your Personal Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Studymate</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">How It Works</a></li>
+                    <li><a href="#create-plan">Create Plan</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <div class="container main-container">
+
+            <section id="hero">
+                <h2>Stop Guessing. Start Planning.</h2>
+                <p>Overwhelmed and frustrated with exams? Studymate helps you build a smart, balanced, and effective study timetable based on your unique needs. Fill out the form to get started!</p>
+                <img src="ict-assignment-pic.jpg" alt="A person organizing a study schedule" class="hero-image">
+            </section>
+
+            <section id="create-plan">
+                <form action="#" method="POST" class="smart-form">
+                    <h3>Build Your Free Study Plan</h3>
+                    
+                    <fieldset>
+                        <legend>Step 1: About You</legend>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="user_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="user_email" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Step 2: Your Study Profile</legend>
+                        
+                        <div class="form-group">
+                            <p class="form-label">What's your biggest study challenge?</p>
+                            <div class="choice-group">
+                                <label class="choice-label">
+                                    <input type="radio" name="challenge" value="procrastination" checked>
+                                    <span>Procrastination</span>
+                                </label>
+                                <label class="choice-label">
+                                    <input type="radio" name="challenge" value="focus">
+                                    <span>Staying Focused</span>
+                                </label>
+                                <label class="choice-label">
+                                    <input type="radio" name="challenge" value="planning">
+                                    <span>Time Management</span>
+                                </label>
+                                <label class="choice-label">
+                                    <input type="radio" name="challenge" value="planning">
+                                    <span>Other</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <p class="form-label">Which subjects need the most attention?</p>
+                            <div class="choice-group">
+                                <label class="choice-label">
+                                    <input type="checkbox" name="subject" value="math">
+                                    <span>Mathematics & Logic</span>
+                                </label>
+                                <label class="choice-label">
+                                    <input type="checkbox" name="subject" value="science">
+                                    <span>Science (Physics, Chem, Bio)</span>
+                                </label>
+                                <label class="choice-label">
+                                    <input type="checkbox" name="subject" value="humanities">
+                                    <span>Humanities (History, Lit)</span>
+                                </label>
+                                <label class="choice-label">
+                                    <input type="checkbox" name="subject" value="languages">
+                                    <span>Languages</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="study-hours">How many hours can you study per week?</label>
+                            <select id="study-hours" name="study_hours">
+                                <option value="" disabled selected>-- Select an option --</option>
+                                <option value="1-5">1-5 hours</option>
+                                <option value="6-10">6-10 hours</option>
+                                <option value="11-15">11-15 hours</option>
+                                <option value="16+">16+ hours</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="goals">What are your specific goals?</label>
+                            <textarea id="goals" name="user_goals" rows="4" placeholder="e.g., 'Ace my IICT finals.', 'Prepare for SATs', 'Distinction in A-Level Exams.', 'Prepare for FAST entry test."></textarea>
+                        </div>
+
+                    </fieldset>
+
+                    <button type="submit" class="btn-submit">Generate My Timetable!</button>
+                </form>
+            </section>
+
+            <section id="features">
+                <div class="feature-card">
+                    <h4>1. Identify</h4>
+                    <p>Tell us your subjects, challenges, and goals.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>2. Prioritize</h4>
+                    <p>Our (pretend) logic figures out where to focus.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>3. Plan</h4>
+                    <p>Get a balanced schedule you can actually stick to.</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Studymate. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
