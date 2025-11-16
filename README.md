@@ -1,4 +1,4 @@
-![DesktopView](https://github.com/user-attachments/assets/292c9b2a-73b8-4538-b1fd-b17a7b189f10)# Assignment-02
+# Assignment-02
 ## Studymate: Your Personal Study Planner
 
 This project is a responsive, single-page website for "Studymate," a fictional service that helps students create a smart study timetable. The site is built using only HTML5 and CSS3, with a focus on semantic structure, responsive design, and CSS-only interactivity.
@@ -59,8 +59,10 @@ The design aims to be clean, encouraging, and professional to build trust with a
 *(To add proof: Take screenshots of the validator results and drag them here)*
 
 #### HTML Validation (W3C)
-[Screenshot of W3C HTML validator passing]
+![HTML Validator Proof](https://github.com/user-attachments/assets/bdc29e4f-b6f7-4e69-8cae-29ca4cd89701)
+
 
 #### CSS Validation (W3C Jigsaw)
-[Screenshot of W3C CSS validator passing]
+![CSS Validator Proof](https://github.com/user-attachments/assets/d0fcb210-ca4e-4480-a37c-b959e5326870)
+
 
